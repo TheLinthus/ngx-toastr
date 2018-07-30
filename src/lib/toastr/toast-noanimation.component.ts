@@ -129,7 +129,7 @@ export class ToastNoAnimation implements OnDestroy {
   }
 
   resetTimeout() {
-    console.log('test');
+    // console.log('test');
     clearTimeout(this.timeout);
     clearInterval(this.intervalId);
 
